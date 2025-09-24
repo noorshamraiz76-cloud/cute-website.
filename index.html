@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Love Notes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(135deg, #ffe6f2, #e6f7ff);
+      color: #444;
+      text-align: center;
+    }
+
+    header {
+      padding: 2rem;
+      background-color: rgba(255, 182, 193, 0.6);
+      font-size: 2rem;
+      font-weight: bold;
+      border-bottom: 2px solid #ffcce0;
+    }
+
+    .notes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 2rem;
+      gap: 1rem;
+    }
+
+    .note {
+      background: #fff0f5;
+      border: 2px dashed #ff99cc;
+      border-radius: 15px;
+      width: 200px;
+      padding: 1rem;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .note:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: rgba(255, 182, 193, 0.4);
+    }
+
+    audio {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    💕 A little something 💕
+  </header>
+
+  <section class="notes">
+    <div class="note">You are my sunshine 🌸</div>
+    <div class="note">My beautiful saboori chan ✨</div>
+    <div class="note">My moon faced angel 💖</div>
+    <div class="note">My nightingale with sweet voice 💌</div>
+  </section>
+
+  <footer>
+    <p>Made with love 💕</p>
+    <!-- Add your own songs here -->
+    <audio controls autoplay loop>
+      <source src="yoursong.mp3" type="audio/mpeg">
+      Your browser does not support audio playback.
+    </audio>
+  </footer>
+</body>
+</html>
